@@ -1,0 +1,87 @@
+*{
+	padding: 0;
+}
+body, html	{
+	height: 95%;
+	margin: 0%;
+	font-style: normal;
+	font-family: fantasy;
+}
+.navbar{
+  display: block;
+  position: sticky;
+}
+ul {
+  background-color: #333;
+  overflow: hidden;
+  color: white;
+  margin: 0;
+}
+li{
+  display: block;
+  text-align: center;
+  padding: 14px 16px;
+  float: right;
+}
+.image, .image2{
+	position: relative;
+	background-position: center;
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+  width: cover;
+}
+.image{
+	background-image: url(https://www.luxurylifestylemag.co.uk/wp-content/uploads/2018/03/OZONE-WORLDS-HIGHEST-BAR-AT-THE-RITZ-CARLTON-HONG-KONG-1.jpg);
+	min-height: 100%;
+  object-fit: cover;
+}
+.space{
+	background-color: #FFF;
+	text-align: center;
+	position: relative;
+}
+.hello{
+	text-align: center;
+	font-size: 30px;
+  font-family: Urban Class;
+	margin: 10px;
+}
+img{
+  padding: 5px;
+  height: 200px;
+  width: 200px;
+  object-fit: cover;
+}
+.box1{
+	display: inline-block;
+}
+.name{
+   object-fit: cover;
+	 position: absolute;
+}
+.name{
+   color: #FFFFFF;
+	 text-align: center;
+	 font-size: 18px;
+}
+.pic1{
+	display: block;
+  margin: 0px ;
+  transition: all 0.2s ease-in;
+  -webkit-transition: all 0.2s ease-in;
+  -moz-transition: all 0.2s ease-in;
+  -o-transition: all 0.2s ease-in;
+}
+img:hover {
+  opacity: 0.6;
+  transform: scale(1.05, 1.07);
+  transition-timing-function: ease-out;
+  transition-duration: 200ms;
+  -webkit-transform: scale(1.05, 1.07);
+  -webkit-transition-timing-function: ease-out;
+  -webkit-transition-duration: 200ms;
+  -moz-transform: scale(1.05, 1.07);
+  -moz-transition-timing-function: ease-out;
+  -moz-transition-duration: 200ms;
+}
